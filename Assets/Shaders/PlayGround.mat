@@ -19,6 +19,6 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Floors: 4
+    - _Floors: 6
     m_Colors:
     - _Diffuse: {r: 1, g: 0.5294118, b: 0.5294118, a: 1}

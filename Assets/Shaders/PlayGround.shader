@@ -45,7 +45,7 @@ Shader "Unity Shaders Book/Chapter 6/DiffuseVertexLevel"
 				
 				fixed3 worldNormal = normalize(i.worldNormal);
 				fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
-                float lightStrength = saturate(dot(worldNormal, worldLight));
+                float lightStrength = dot(worldNormal, worldLight)*0.5+0.5;
                 //将光线强度阶梯化
                 float flooredLightStrenth = (float)(((int)(lightStrength*_Floors)))/_Floors+0.1;
 
