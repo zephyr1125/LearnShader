@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: PlayGround
-  m_Shader: {fileID: 4800000, guid: faa4e12df6d44324382ada28eceb9b4b, type: 3}
+  m_Name: BlinnPhongUseBuildInFunction
+  m_Shader: {fileID: 4800000, guid: c05fece58edffbf47ab4024a134a4377, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Floors: 6
+    - _Gloss: 14
     m_Colors:
-    - _Diffuse: {r: 1, g: 0.5294118, b: 0.5294118, a: 1}
+    - _Diffuse: {r: 0.13797578, g: 0.17764586, b: 0.32352942, a: 1}
+    - _Specular: {r: 0, g: 0.13103437, b: 1, a: 1}

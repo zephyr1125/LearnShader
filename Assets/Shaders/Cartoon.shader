@@ -1,6 +1,6 @@
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
-Shader "Unity Shaders Book/Chapter 6/DiffuseVertexLevel"
+Shader "Zephyr/Cartoon"
 {
 	Properties{
 		_Diffuse("Diffuse", Color) = (1,1,1,1)
@@ -47,7 +47,7 @@ Shader "Unity Shaders Book/Chapter 6/DiffuseVertexLevel"
 				fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
                 float lightStrength = dot(worldNormal, worldLight)*0.5+0.5;
                 //将光线强度阶梯化
-                float flooredLightStrenth = (float)(((int)(lightStrength*_Floors)))/_Floors+0.1;
+                float flooredLightStrenth = (float)(((int)(lightStrength*_Floors)))/_Floors;
 
 				fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * flooredLightStrenth;
 
