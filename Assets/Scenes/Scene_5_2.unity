@@ -283,7 +283,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.5174129
+      value: 0.64374816
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalRotation.z
@@ -291,7 +291,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8557359
+      value: -0.76523745
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_RootOrder
@@ -299,7 +299,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 657.682
+      value: -440.144
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalRotation.x
@@ -391,17 +391,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7433913
+      value: -0.7939892
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.66885686
+      value: 0.607932
       objectReference: {fileID: 0}
     - target: {fileID: 400098, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -96.04201
+      value: -105.12
       objectReference: {fileID: 0}
     - target: {fileID: 100096, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100168, guid: 59ca5bca3f9f28a40ba9b010db91ba14, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
